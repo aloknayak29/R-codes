@@ -1,3 +1,4 @@
+library(party)
 t <- read.table('train.tsv', sep='\t', header=TRUE)
 u <- t[,c(1:2,4:27)]
 miss <- u$alchemy_category == '?'
