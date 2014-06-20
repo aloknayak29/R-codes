@@ -1,0 +1,14 @@
+Package: mapredTools
+Type: Package
+Title: Make it easier to work with strings.
+Version: 0.5
+Author: alok nayak <aloknayak29@gmail.com>
+Maintainer: alok nayak <aloknayak29@gmail>
+Description: mapredTools is a set of simple functions and utilities 
+ that assist in implementing mapreduce algorithms for out of RAM
+ large data files. mapredTools's functions more consistent, simpler
+ customisable and easier to use.
+Imports: ff
+Depends: R (>= 2.11.0)
+Suggests: testthat (>= 0.3)
+License: MIT + file LICENSE
